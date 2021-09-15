@@ -1,0 +1,62 @@
+body{
+    background-color: antiquewhite;
+    color: black;
+
+    font-size: 25px;
+    font-weight: normal;
+    font-family: 'fonts', sans-serif;
+    margin: 10%;
+}
+.container1{
+    display: flex;
+    background-color: azure;
+    margin-top: 100px
+}
+h1{
+    font-size: 35px;
+    padding-inline-start: 48px;
+}
+h3{
+    font-size: 35px;
+}
+.imga{
+    border-radius: 50%;
+    width: 250px;
+    padding-inline-start: 40px;
+    margin-top: 25px
+
+}
+header, main{
+    justify-content: space-around;
+}
+p{
+    font-size: 25px;
+    padding-inline-start: 48px;
+}
+.maininfo{
+    padding-inline-start: 150px;
+    font-size: 25px;
+}
+.maininfo ul {
+    display: list-item;
+    padding-inline-start: 150px;
+    font-size: 25px;
+    list-style-type: none;
+    overflow: hidden; 
+    margin: 16px;
+}
+.contact ul {
+    display: list-item;
+    margin: 0 0 10px 10px;
+    padding-left: 15px;
+    overflow: hidden; 
+    padding: 10px; 
+    list-style-type: none;
+    line-height: 50px;
+    padding-inline-start: 38px;
+}
+.info {
+    margin: 16px;
+    
+}
+
