@@ -2,61 +2,184 @@
 <html lang="eu">
 
 <head>
-    <meta charset="UFT-8">
+    <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adaptive-style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
     <title>CV</title>
 </head>
 
 <body>
-    <div class="container1">
+    <div class="wrapper">
         <header>
-            <img class="imga" src="assets/avatar.png" alt="avatar">
-            <h1>Bychkov Artem Alexandrovich</h1>
-            <div class="contact">
-                <p>My contacts</p>
-                <ul>
-                    <li> <img src="assets/Telephjne.png" alt="Telephjne" width="28px"> <a
-                            href="+7-903-557-92-13">+7-903-557-92-13</a></li>
-                    <li> <img src="assets/Po4ta.jpg" alt="Po4ta" width="28px"> <a
-                            href="mailto:mister.by4kov2016@yandex.ru" target="blank">mister.by4kov2016@yandex.ru</a>
-                    </li>
-                    <li> <img src="assets/Telega.png" alt="Telega" width="28px"> <a href="https://t.me/artaboris"
-                            target="blank">@artaboris</a></li>
-                </ul>
-            </div>
+            <h1>Curiculum vitae</h1>
         </header>
-        <main>
-            <div class="maininfo">
-                <h3>Main information</h3>
-                <div class="info">
-                    Education
-                    <ul>
-                        <li>Code-Basics</li>
-                        <li>HTML Academy</li>
-                        <li>Codewars</li>
-                    </ul>
+
+        <main class="flex_main">
+            <div class="flex_about">
+
+                <div class="box_1 box">
+                    <div class="about">
+                        <div class="avatar"><img src="assets/avatar.png" alt="avatar"></div>
+                        <article>
+                            <h2>Bychkov Artem Aleksandrovich</h2>
+                            <h4>About me:</h4> I like to study and learn something new. I like to read books, do
+                            physical
+                            education, listen to music of different genres. I'm fond of good cars and bikes.<br> I lead
+                            active and healhy lifestyle. I like to work and
+                            see the results of my work. Since childhood, I have had a predisposition to work with
+                            electronics and computers. I like to disassemble, assemble and configure something. I can
+                            build, configure, solve problems with computers.
+                        </article>
+                    </div>
+
+                    <article class="contact">
+                        <h3>My contacts:</h3>
+                        <ul>
+                            <li> <img src="assets/phone.png" alt="Telephjne"> <a
+                                    href="+7-903-557-92-13">+7-903-557-92-13</a></li>
+                            <li> <img src="assets/email.svg" alt="Po4ta"> <a href="mailto:mister.by4kov2016@yandex.ru"
+                                    target="blank">mister.by4kov2016@yandex.ru</a>
+                            </li>
+                            <li> <img src="assets/telegram.svg" alt="Telega"> <a href="https://t.me/artaboris"
+                                    target="blank">@artaboris</a></li>
+                        </ul>
+                    </article>
                 </div>
-                <div class="info">Skills
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Basic JS</li>
-                        <li>GIT</li>
-                        <li>VS Code</li>
-                    </ul>
-                </div>
-                <div class="info">
-                    English: A1+
-                </div>
+
+
+
+                <section class="box_2 box">
+                    <div class="info">
+                        <h3>Main information:</h3>
+                        <h4>Education:</h4>
+                        <ul>
+                            <li>Code-Basics</li>
+                            <li>HTML Academy</li>
+                            <li>Codewars</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h4>Skills:</h4>
+                        <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Basic JS</li>
+                            <li>GIT</li>
+                            <li>VS Code</li>
+                        </ul>
+                    </div>
+                    <div class="info">
+                        <h4>English:</h4>
+                        A1+
+                    </div>
+                </section>
+            </div>
+
+
+            <div class="box_3 box">
+                <h3>My projects</h3>
+                <section class="projects_flex">
+                    <div class="projects">
+                        <h3>Projects:</h3>
+                        <div class="project">
+                            <a href="https://github.com/ArtaBoris/rsschool-cv/pull/3" target="blank"><img
+                                    class="project_image" src="assets/prodject1.png" alt="prodject1"></a>
+                            <div class="description">
+                                <h5>Title:</h5>
+                                HTML, CSS & Git Basics
+                                <h5>Description:</h5>
+                                <P>In this project, I got acquainted with HTML, CSS and Git</P>
+                                <h5>List of technologies:</h5>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Git</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="project">
+                            <a href="https://github.com/ArtaBoris/rsschool-cv/pull/1" target="blank"><img
+                                    class="project_image" src="assets/Markdown_Git.png" alt="project2"> </a>
+                            <div class="description">
+                                <h5>Title:</h5>
+                                Markdown & Git
+                                <h5>Description:</h5>
+                                <P>In this project, I got acquainted with Markdown and Git</P>
+                                <h5>List of technologies:</h5>
+                                <ul>
+                                    <li>Markdown</li>
+                                    <li>Git</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="code">
+                        <h3>Code:</h3>
+                        <div class="code_example">
+                            <pre><code class="javascript">    
+            function tickets(peopleInLine){
+                const moneys = {
+                    25: 0,
+                    50: 0,
+                    100: 0
+                }
+                for (let i = 0; i &lt; ;peopleInLine.length; i++){
+                    const money = peopleInLine[i]
+                    if (money === 25) {
+                        moneys[money]++
+                    }
+                    if (money === 50) {
+                        if (moneys[25] > 0) {
+                            moneys[25]--
+                            moneys[money]++
+                        }
+                        else return 'NO'
+                    }
+                    if (money === 100) {
+                        if (moneys[50] > 0 && moneys[25] > 0) {
+                            moneys[50]--
+                            moneys[25]--
+                            moneys[money]++
+                        }
+                        else if (moneys[25] >=3) {
+                            moneys[25] -= 3
+                            moneys[money]++
+                        }
+                        else return 'NO'
+                        }  
+                    }
+                return 'YES'  
+                }
+                            
+                        </code></pre>
+                        </div>
+                    </div>
+                </section>
             </div>
         </main>
-        <footer>
-            <a href="https://github.com/ArtaBoris"> <img src="assets/Github.png" width="50"></a>
+
+        <footer class="footer">
+            <div class="git_logo">
+                <a href="https://github.com/ArtaBoris"><img src="assets/Github.png" alt="github"></a>
+            </div>
+            <div class="year">
+                2021
+            </div>
+            <div class="rs_logo">
+                <a href="https://rs.school/js/"><img src="assets/rs_school_js.svg" alt="rs_school_js"></a>
+            </div>
         </footer>
+
     </div>
+    <script src="assets/rainbow-custom.min.js"></script>
 </body>
 
 </html>
