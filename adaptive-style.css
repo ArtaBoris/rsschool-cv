@@ -1,0 +1,26 @@
+@media (max-width: 850px) {
+    .flex_about, .projects {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    .about, .project {
+        flex-direction: column;
+        padding: 10px 0;
+    }
+
+    pre {
+        font-size: 8px;
+        padding: 0;
+    }
+
+    .about article {
+        width: 280px;
+    }
+
+    .contact {
+        width: 300px;
+        font-size: 16px;
+    }
+}
