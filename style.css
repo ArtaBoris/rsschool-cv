@@ -1,0 +1,182 @@
+body {
+    background-color: #c2d1e5;
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    line-height: normal;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1400px;
+    background-color: #95bddc;
+}
+
+.flex_main {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 3px #c2d1e5 solid;
+}
+
+.box{
+    margin: 10px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.flex_about {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px #c2d1e5 solid;
+    margin: 20px 10px;
+}
+
+.box_1 {
+    max-width: 900px;
+    min-height: 550px;
+}
+
+.avatar img {
+    border-radius: 20%;
+    width: 272px;
+    border: 3px solid #c2d1e5;
+}
+
+h1 {
+    font-size: 1.8em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-weight: 600;
+}
+
+.contact {
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+
+.contact ul {
+    padding: 10px;
+    
+}
+
+.contact li {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.contact img {
+    width: 36px;
+    margin-right: 10px;
+}
+
+
+.box_2 {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    min-height: 550px;
+}
+
+.info {
+    padding: 10px;
+    border-bottom: 3px #c2d1e5 solid;
+    line-height: 30px;
+}
+
+.info ul {
+    padding: 10px;
+}
+
+.about {
+    display: flex;
+}
+
+.about article {
+    padding: 10px;
+    line-height: 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    height: 70px;
+    margin: 5px;
+}
+
+.year {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.git_logo img {
+    width: 50px;
+}
+
+.rs_logo img {
+    width: 120px;
+}
+
+.projects_flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project_image {
+    width: 280px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+}
+
+.projects_title {
+    display: block;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10px;
+    border-bottom: 3px #c2d1e5 solid;
+}
+
+.description {
+    width: 300px;
+    font-size: 20px;
+    margin: 10px;
+    line-height: 26px;
+}
+
+a, a:visited {
+ text-decoration: none;
+ color: black;
+}
+
+a:hover {
+    color: red;
+}
+
